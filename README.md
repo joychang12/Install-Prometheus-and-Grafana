@@ -128,6 +128,7 @@ sudo systemctl enable grafana-server.service
 ```
 #### Step 2.  Open the browser
 URL: http://localhost:3000
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/a5b132a4-94b0-4320-bcd4-f01ab2f49ef9)
 
 default 
 username: admin
@@ -135,15 +136,16 @@ password: admin
 
 #### Step 3.  Create Prometheus Dashboard 
 先建置 Data source for prometheus
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/769e18cc-708e-494f-bc89-ff81a2bc01d5)
 選取 Prometheus
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/763b303f-b469-47c0-9185-5cb38969d9af)
 設定 Prometheus 路徑
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/c1873fcf-d3a8-45bf-9c43-3ae57d5d487b)
 設定完成儲存成功後會出現綠色框框
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/5076460c-6287-4f99-8cc8-64977a9742f1)
 新增 Dashboard
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/593fa5ba-c063-4903-95dd-f29261f2acfe)
 設定需要看的參數，完成後按下右上方的 Apply
-
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/28ffa6f3-8e3d-472f-9cb3-2f8f0cf2252a)
 Dashboard 顯示 Prometheus 就完成了
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/5c297a63-1eb1-47d3-ba07-167476cc102a)
