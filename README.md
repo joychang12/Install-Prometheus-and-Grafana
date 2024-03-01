@@ -113,3 +113,37 @@ sudo systemctl start prometheus
 URL: http://localhost:9090
 ![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/1c74b84d-ea28-4c03-8b6b-4baec1d185e2)
 
+## What is Grafana?
+Query, visualize, alert on, and understand your data no matter where it’s stored. With Grafana you can create, explore, and share all of your data through beautiful, flexible dashboards.
+
+## How to install Grafana
+Install in Ubuntu
+#### Step 1.  Install Grafana
+```
+wget https://dl.grafana.com/oss/release/grafana_7.1.3_amd64.deb  
+sudo dpkg -i grafana_7.1.3_amd64.deb
+sudo service grafana-server start
+sudo service grafana-server status
+sudo systemctl enable grafana-server.service
+```
+#### Step 2.  Open the browser
+URL: http://localhost:3000
+
+default 
+username: admin
+password: admin
+
+#### Step 3.  Create Prometheus Dashboard 
+先建置 Data source for prometheus
+
+選取 Prometheus
+
+設定 Prometheus 路徑
+
+設定完成儲存成功後會出現綠色框框
+
+新增 Dashboard
+
+設定需要看的參數，完成後按下右上方的 Apply
+
+Dashboard 顯示 Prometheus 就完成了
