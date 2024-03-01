@@ -108,8 +108,9 @@ sudo systemctl enable prometheus
 sudo systemctl start prometheus
 ```
 #### Step 9.  Check Prometheus Systemd Service
-![[Pasted image 20240301164718.png]]
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/ded631b9-01c8-4a25-b962-a899b62d59ba)
+
 #### Step 10.  Open the browser
 URL: http://localhost:9090
-![[Pasted image 20240301164821.png]]
+![image](https://github.com/joychang12/Install-Prometheus-and-Grafana/assets/108848733/1c74b84d-ea28-4c03-8b6b-4baec1d185e2)
 
